@@ -20,3 +20,7 @@ $manager = new Luxifer\Manager\CurrencyManager($serializer);
 
 $euro = $manager->getCurrencyBy('code', 'EUR'); // Luxifer\Model\Currency
 ```
+
+## Thanks
+
+I would like to tkank @Fluidbyte for the initial currency list published on [gist](https://gist.github.com/Fluidbyte/2973986).
