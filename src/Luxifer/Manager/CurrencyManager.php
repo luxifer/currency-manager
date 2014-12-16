@@ -1,5 +1,5 @@
 <?php
-namespace Luxifer\CoreBundle\Manager;
+namespace Luxifer\Manager;
 
 use JMS\Serializer\SerializerInterface;
 use Doctrine\Common\Collections\ArrayCollection;

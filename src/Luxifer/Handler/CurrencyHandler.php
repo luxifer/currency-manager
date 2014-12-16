@@ -6,7 +6,7 @@ use JMS\Serializer\GraphNavigator;
 use JMS\Serializer\VisitorInterface;
 use JMS\Serializer\JsonDeserializationVisitor;
 use JMS\Serializer\Context;
-use Luxifer\CoreBundle\Manager\CurrencyManager;
+use Luxifer\Manager\CurrencyManager;
 use Luxifer\Model\Currency;
 
 /**
