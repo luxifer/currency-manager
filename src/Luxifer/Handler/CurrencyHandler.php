@@ -3,7 +3,8 @@ namespace Luxifer\Handler;
 
 use JMS\Serializer\Handler\SubscribingHandlerInterface;
 use JMS\Serializer\GraphNavigator;
-use JMS\Serializer\JsonSerializationVisitor;
+use JMS\Serializer\VisitorInterface;
+use JMS\Serializer\JsonDeserializationVisitor;
 use JMS\Serializer\Context;
 use Luxifer\CoreBundle\Manager\CurrencyManager;
 use Luxifer\Model\Currency;
