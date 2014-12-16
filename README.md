@@ -28,7 +28,7 @@ This library provide a new handler for `jms\serializer` to handle serialization/
 ```php
 <?php
 
-$serializer->configureHandlers(function(JMS\Serializer\Handler\HandlerRegistry $registry) {
+$serializer->configureHandlers(function(JMS\Serializer\Handler\HandlerRegistry $registry) use ($manager) {
     $registry->registerSubscribingHandler(new Luxifer\Handler\CurrencyHandler($manager));
 });
 ```
