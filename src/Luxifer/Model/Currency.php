@@ -58,4 +58,13 @@ class Currency
     {
         return $this->symbolNative;
     }
+
+    public function format($field)
+    {
+        if (!property_exists($this, $field)) {
+            throw new \UnexpectedValueException(sprintf('Field "%s" does not exist.', $field));
+        }
+
+        return $this->$field;
+    }
 }
