@@ -23,13 +23,13 @@ class CurrencyHandler implements SubscribingHandlerInterface
             [
                 'format'    => 'json',
                 'direction' => GraphNavigator::DIRECTION_DESERIALIZATION,
-                'type'      => 'Currency',
+                'type'      => 'currency',
                 'method'    => 'deserializeCurrencyFromJson',
             ],
             [
                 'format'    => 'json',
                 'direction' => GraphNavigator::DIRECTION_SERIALIZATION,
-                'type'      => 'Currency',
+                'type'      => 'currency',
                 'method'    => 'serializeCurrencyToJson',
             ],
         ];
