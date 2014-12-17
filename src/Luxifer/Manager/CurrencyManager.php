@@ -17,7 +17,7 @@ class CurrencyManager
     {
         $this->serializer = $serializer;
         $data = file_get_contents(__DIR__.'/../../../data/currencies.json');
-        $decoded = $this->serializer->deserialize($data, 'array<string, Xotelia\Model\Currency>', 'json');
+        $decoded = $this->serializer->deserialize($data, 'array<string, Luxifer\Model\Currency>', 'json');
         $this->currencies = new ArrayCollection($decoded);
     }
 
