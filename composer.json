@@ -13,7 +13,7 @@
         }
     ],
     "require": {
-        "jms/serializer": "~0.11",
+        "jms/serializer": "*",
         "doctrine/collections": "~1.0"
     },
     "autoload": {
